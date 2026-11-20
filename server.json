@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.whosman/ruleswatch",
+  "title": "RulesWatch",
+  "description": "Polymarket and Kalshi market rules, with each recorded edit shown before and after.",
+  "version": "1.0.0",
+  "websiteUrl": "https://ruleswatch.com",
+  "repository": {
+    "url": "https://github.com/whosman/ruleswatch-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ruleswatch.com/api/mcp"
+    }
+  ]
+}
